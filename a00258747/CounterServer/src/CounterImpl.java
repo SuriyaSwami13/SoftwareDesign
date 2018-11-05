@@ -16,6 +16,9 @@ class CounterImpl extends UnicastRemoteObject implements Counter{
 	public int read_value()  throws RemoteException{
 		return this.value;
 	}
+	public void reset_value()  throws RemoteException{
+		
+	}
 }
 
 
